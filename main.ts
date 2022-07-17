@@ -146,6 +146,8 @@
 // }
 // console.log(
 //  getArrayReturnText([2,1]));
+
+
 let stringArray:string=""
 function printSom(myArray:any[]){
 switch (myArray[1]) {
