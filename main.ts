@@ -159,9 +159,10 @@ switch (myArray[1]) {
         return myArray.sort().reverse();
 
     case "text":
-        return myArray.forEach(item=>stringArray+=`${item}`)
+        myArray.forEach(item=>stringArray+=`${item}`);
+        return stringArray;
 
-    default:
+    default:return
         
 }
 }
