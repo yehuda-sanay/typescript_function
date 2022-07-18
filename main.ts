@@ -92,15 +92,15 @@
 // }
 // returnNameA()
 
-// function printMassege(numArray:number[]):boolean{
-//     for(let i:number=0;i<numArray.length;i++){
-//         if(numArray[i]%2==0){
-//             return true
-//         }
-//     }
-//     return false;
-// }
-// printMassege()
+function printMassege(numArray:number[]):boolean{
+    for(let i:number=0;i<numArray.length;i++){
+        if(numArray[i]%2==0){
+            return true
+        }
+    }
+    return false;
+}
+console.log(printMassege(2,5,6,9,7,8,5))
 
 // function getDate(userDate:string){
 //     const myDate:string=new Date(userDate);
@@ -148,27 +148,27 @@
 //  getArrayReturnText([2,1]));
 
 
-let stringArray:string=""
-function printSom(myArray:any[]){
-switch (myArray[0]) {
-    case "upside down":
-        return myArray.reverse();
+// let stringArray:string=""
+// function printSom(myArray:any[]){
+// switch (myArray[0]) {
+//     case "upside down":
+//         return myArray.reverse();
 
-    case "ascending order":
-        return myArray.sort((a,b)=>a-b);
+//     case "ascending order":
+//         return myArray.sort((a,b)=>a-b);
 
-    case "Descending":
-        return myArray.sort((a,b)=>a-b).reverse();
+//     case "Descending":
+//         return myArray.sort((a,b)=>a-b).reverse();
 
-    case "text":
-        myArray.forEach(item=>stringArray+=`${item}`);
-        return stringArray;
+//     case "text":
+//         myArray.forEach(item=>stringArray+=`${item}`);
+//         return stringArray;
 
-    default: return
+//     default: return
         
-}
-}
-console.log( printSom(["text",8,6,32,4,8,65,89,6]));
+// }
+// }
+// console.log( printSom(["text",8,6,32,4,8,65,89,6]));
 
 
 
