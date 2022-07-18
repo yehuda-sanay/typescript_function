@@ -100,13 +100,13 @@ function printMassege(numArray:number[]):boolean{
     }
     return false;
 }
-console.log(printMassege(2,5,6,9,7,8,5))
+console.log(printMassege([2,5,6,9,7,8,5]))
 
-// function getDate(userDate:string){
-//     const myDate:string=new Date(userDate);
-//     console.log(myDate);
+// function getDate(userDate:string):Date{
+//     const myDate:Date=new Date(userDate);
+//     return myDate;
 // }
-// getDate("22/03/2022")
+// console.log(getDate("05/05/2022"))
 
 // function printTextNumeTimes(myName:string,num:number){
 //     for(let i:number=0;i<num;i++){
