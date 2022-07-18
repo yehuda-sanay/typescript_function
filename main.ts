@@ -150,25 +150,25 @@
 
 let stringArray:string=""
 function printSom(myArray:any[]){
-switch (myArray[1]) {
+switch (myArray[0]) {
     case "upside down":
         return myArray.reverse();
 
     case "ascending order":
-        return myArray.sort();
+        return myArray.sort((a,b)=>a-b);
 
     case "Descending":
-        return myArray.sort().reverse();
+        return myArray.sort((a,b)=>a-b).reverse();
 
     case "text":
         myArray.forEach(item=>stringArray+=`${item}`);
         return stringArray;
 
-    default:return
+    default: return
         
 }
 }
-console.log( printSom(["Descending",8,6,32,4,8,65,89,6]));
+console.log( printSom(["text",8,6,32,4,8,65,89,6]));
 
 
 
