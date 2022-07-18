@@ -92,15 +92,15 @@
 // }
 // returnNameA()
 
-function printMassege(numArray:number[]):boolean{
-    for(let i:number=0;i<numArray.length;i++){
-        if(numArray[i]%2==0){
-            return true
-        }
-    }
-    return false;
-}
-console.log(printMassege([2,5,6,9,7,8,5]))
+// function printMassege(numArray:number[]):boolean{
+//     for(let i:number=0;i<numArray.length;i++){
+//         if(numArray[i]%2==0){
+//             return true
+//         }
+//     }
+//     return false;
+// }
+// console.log(printMassege([2,5,6,9,7,8,5]))
 
 // function getDate(userDate:string):Date{
 //     const myDate:Date=new Date(userDate);
@@ -172,6 +172,29 @@ console.log(printMassege([2,5,6,9,7,8,5]))
 
 
 
-
+// let bArray:boolean[]=[];
+// let nArray:number[]=[];
+// let sArray:string[]=[];
+// let oArray:object[]=[]; 
+// function orderArray(myArray:any[]){
+//     myArray.forEach(Element=>{
+//         switch (typeof(Element)) {
+//             case "number": nArray.push(Element)
+//                 break;
+//             case "boolean": bArray.push(Element)
+//                 break;
+//             case "string": sArray.push(Element)
+//                 break;
+//             case "object": oArray.push(Element)
+            
+//             default:
+//                 return;
+//         }}
+//         )
+//         let newArray:any[]=[];
+//         newArray.push(bArray,nArray,sArray,oArray);
+//         console.log(newArray);
+// }
+// orderArray([3,2,"sefjhsd","sdfjhsdf",true,false]);
 
 
