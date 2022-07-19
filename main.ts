@@ -172,29 +172,29 @@
 
 
 
-// let bArray:boolean[]=[];
-// let nArray:number[]=[];
-// let sArray:string[]=[];
-// let oArray:object[]=[]; 
-// function orderArray(myArray:any[]){
-//     myArray.forEach(Element=>{
-//         switch (typeof(Element)) {
-//             case "number": nArray.push(Element)
-//                 break;
-//             case "boolean": bArray.push(Element)
-//                 break;
-//             case "string": sArray.push(Element)
-//                 break;
-//             case "object": oArray.push(Element)
+let bArray:boolean[]=[];
+let nArray:number[]=[];
+let sArray:string[]=[];
+let oArray:object[]=[]; 
+function orderArray(myArray:any[]){
+    myArray.forEach(Element=>{
+        switch (typeof(Element)) {
+            case "number": nArray.push(Element)
+                break;
+            case "boolean": bArray.push(Element)
+                break;
+            case "string": sArray.push(Element)
+                break;
+            case "object": oArray.push(Element)
             
-//             default:
-//                 return;
-//         }}
-//         )
-//         let newArray:any[]=[];
-//         newArray.push(bArray,nArray,sArray,oArray);
-//         console.log(newArray);
-// }
-// orderArray([3,2,"sefjhsd","sdfjhsdf",true,false]);
+            default:
+                return;
+        }}
+        )
+        let newArray:any[]=[];
+        newArray.push(bArray,nArray,sArray,oArray);
+        console.log(newArray);
+}
+orderArray([3,2,"sefjhsd","sdfjhsdf",true,false]);
 
 
