@@ -172,29 +172,84 @@
 
 
 
-let bArray:boolean[]=[];
-let nArray:number[]=[];
-let sArray:string[]=[];
-let oArray:object[]=[]; 
-function orderArray(myArray:any[]){
-    myArray.forEach(Element=>{
-        switch (typeof(Element)) {
-            case "number": nArray.push(Element)
-                break;
-            case "boolean": bArray.push(Element)
-                break;
-            case "string": sArray.push(Element)
-                break;
-            case "object": oArray.push(Element)
+// let bArray:boolean[]=[];
+// let nArray:number[]=[];
+// let sArray:string[]=[];
+// let oArray:object[]=[]; 
+// function orderArray(myArray:any[]){
+//     myArray.forEach(Element=>{
+//         switch (typeof(Element)) {
+//             case "number": nArray.push(Element)
+//                 break;
+//             case "boolean": bArray.push(Element)
+//                 break;
+//             case "string": sArray.push(Element)
+//                 break;
+//             case "object": oArray.push(Element)
             
-            default:
-                return;
-        }}
-        )
-        let newArray:any[]=[];
-        newArray.push(bArray,nArray,sArray,oArray);
-        console.log(newArray);
+//             default:
+//                 return;
+//         }}
+//         )
+//         let newArray:any[]=[];
+//         newArray.push(bArray,nArray,sArray,oArray);
+//         console.log(newArray);
+// }
+// orderArray([3,2,"sefjhsd","sdfjhsdf",true,false]);
+
+// function printFirstNameAndLastName(firstName:string,lastName?:string):void{
+//     console.log(
+//     `${firstName} ${lastName}`);
+// }
+// printFirstNameAndLastName("yehuda")
+
+// function printFullNameAndEmail(fullName:string,email?:string="yehudasanay!@gmail.com"):void{
+//     console.log(`${fullName} ${email}`)
+// }
+// printFullNameAndEmail("yehuda sanay")
+
+// function printCatDetels(age:number,type:string,catName?:string):string{
+//     if(!catName) return `${age} ${type}`;
+//     return`${catName} ${age} ${type}`;
+// }
+// console.log(printCatDetels(5,"sfincs","tom"));
+
+// function printHelloOrWelcome(myName:string,theTriger:boolean=true):string{
+//     if(!theTriger) return `hello ${myName}`;
+//     return `welcome ${myName}`
+// }
+// console.log(printHelloOrWelcome())
+
+// function printFirtNameAndLastName(firstName:string,lastName:string,titleName:string="miss"):string{
+//     return `${titleName} ${firstName} ${lastName}`;
+    
+// }
+// console.log(printFirtNameAndLastName())
+
+// function printTextNumbersTimes(firstName:string,printNmu:number=1,lastName?:string):string{
+//     if(lastName) for(let i:number=0;i<printNmu;i++){return `${firstName} ${lastName}`};
+//     for(let i:number=0;i<printNmu;i++){return `${firstName}`}
+//     return ""
+// }
+// console.log(printTextNumbersTimes("yehuda",3,"sanay"));
+
+
+// function SortingNum(...somTav:string[]):string[]{
+//    return somTav.sort()
+// }
+// console.log(SortingTav("y","s","d","g"))
+
+// function sortingNum(...somNum:number[]):void{
+//     (somNum.length>0? console.log(somNum.sort((a,b)=>a-b)):console.log("no item"));
+// }
+// sortingNum()
+
+// function sortingNumREvers(...somNumbers:number[]):void{
+//     (somNumbers.length>0 ? console.log(somNumbers.sort((a,b)=>b-a)):console.log("no item"))
+// }
+// sortingNumREvers()
+
+function sortingDetels(...somDetels:string[]):any{
+    (somDetels.length>0 ? return somDetels.sort() : return "no item";)
 }
-orderArray([3,2,"sefjhsd","sdfjhsdf",true,false]);
-
-
+sortingDetels()
