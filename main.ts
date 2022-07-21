@@ -249,7 +249,10 @@
 // }
 // sortingNumREvers()
 
-function sortingDetels(...somDetels:string[]):any{
-    (somDetels.length>0 ? return somDetels.sort() : return "no item";)
-}
-sortingDetels()
+// function sortingDetels(...somDetels:string[]):any{
+//     return somDetels.sort().join()
+//  }
+//  console.log(sortingDetels("yehuda","naty","sara","hen"))
+
+function 
+
