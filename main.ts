@@ -254,5 +254,33 @@
 //  }
 //  console.log(sortingDetels("yehuda","naty","sara","hen"))
 
-function 
+
+//שאלה 31
+// function pussAllToOneArray(someText:string="end",...someArray:string[]){
+//     someArray.push(someText);
+//     console.log(someArray);
+// }
+// pussAllToOneArray("fgdfg","sinf","adkfhas","askfjdf")
+
+//שאלה 32
+// function returnStudentDetels(student_name:string,schoolroom?:string,test:string="pass",...gradesArray:number[]):string{
+//    gradesArray.sort((a,b)=>a-b);
+//    let average=0;
+//    gradesArray.forEach(item=>average+=item);
+//    average=average/gradesArray.length
+//     return `student_name:${student_name}<br/> schoolroom:${schoolroom}<br/> test:${test}<br/>list of grades:${gradesArray}<br/> grades average:${average}`
+// }
+// console.log(returnStudentDetels("yehdua","d2","dont pass",5,6,9,8,7,5,3,2,1,4,5));
+
+//שאלה 33
+
+// function returnDetels(brand_name:string,discount?:number,color:string="black",...sizes:number[]):string{
+//     sizes.sort((a,b)=>a-b);
+//     return discount==0 ? `brand:${brand_name}, color:${color}, sizes:${sizes}`: `brand:${brand_name}, discount:sale ${discount}%, color:${color}, sizes:${sizes}` 
+// }
+// console.log(returnDetels("adidas",0,"red",30,50,40,60,10))
+
+
+
+
 
