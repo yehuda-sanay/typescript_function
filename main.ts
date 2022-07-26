@@ -282,5 +282,23 @@
 
 
 
+// function som(num:number):void{
+//     let what_to_print:string=""
+//     if (num<10){
+//         what_to_print="less then 10"
+//     }
+//     else if (num>10) {
+//         what_to_print="greater thrn 10"
+//     } else {
+//         what_to_print="is 10"
+//     }
+//     console.log(what_to_print);
+// }
+// som()
 
-
+// function som(num:number):void{
+//     let what_to_print:string="";
+//     num>10? what_to_print="greater then 10":num<10? what_to_print="less then 10":what_to_print="is 10"
+//     console.log(what_to_print)
+// }
+// som()
